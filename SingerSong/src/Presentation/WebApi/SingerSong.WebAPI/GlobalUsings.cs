@@ -1,0 +1,13 @@
+﻿global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using SingerSong.Application.Features.Commands.SingerCommands.InserAlbumSongs.Models;
+global using SingerSong.Application.Features.Commands.SingerCommands.InsertAlbum.Models;
+global using SingerSong.Application.Features.Commands.SingerCommands.InsertAlbumSong.Models;
+global using SingerSong.Application.Features.Commands.SingerCommands.InsertSinger.Models;
+global using SingerSong.Application.Features.Commands.SingerCommands.RemoveSinger.Models;
+global using SingerSong.Application.Features.Queries.SingerQueries.GetSinger.Models;
+global using SingerSong.Application.Features.Queries.SingerQueries.GetSingerAlbums.Models;
+global using SingerSong.Application.Features.Queries.SingerQueries.GetSingerAlbumSongs.Models;
+global using SingerSong.Application.Features.Queries.SingerQueries.GetSingers.Models;
+global using SingerSong.Application.Extensions;
+global using SingerSong.Application.Features.Commands.SingerCommands.UpdateSinger.Models;
